@@ -5,11 +5,9 @@ var crushe=""
 
 
 $(".name").keypress(function(event){
-    console.log(event.key);
     namee=event.key;
 })
 $(".crush").keypress(function(event){
-    console.log(event.key);
     crushe=event.key;
 })
 
