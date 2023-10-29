@@ -23,13 +23,13 @@ $("button").click(function(){
     $("button").text(num+"%");
     setTimeout(function(){
         if(num<50){
-            alert("You deserve better💔");
+            $("h3").text("You deserve better💔");
         }
         if(num>=50 && num<75){
-            alert("You have a chance🤷‍♂️")
+            $("h3").text("You have a chance🤷‍♂️");
         }
         if(num>=75){
-            alert("You found your soulmate💐💐💐")
+            $("h3").text("You found your soulmate💐💐💐");
         }
     },100);
 }
