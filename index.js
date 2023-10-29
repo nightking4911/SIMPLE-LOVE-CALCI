@@ -13,7 +13,7 @@ $(".crush").keypress(function(event){
 
 
 
-$("button").click(function(){
+$("button").on("click touchstart",function(){
     if(namee!="" && crushe!=""){
     var num=Math.floor(Math.random()*100);
     $("button").addClass("st");
