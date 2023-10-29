@@ -24,12 +24,15 @@ $("button").click(function(){
     setTimeout(function(){
         if(num<50){
             $("h3").text("You deserve better💔");
+            alert("You deserve better💔");
         }
         if(num>=50 && num<75){
             $("h3").text("You have a chance🤷‍♂️");
+            alert("You have a chance🤷‍♂️");
         }
         if(num>=75){
             $("h3").text("You found your soulmate💐💐💐");
+            alert("You found your soulmate💐💐💐");
         }
     },100);
 }
